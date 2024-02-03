@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/willow/esp/project/esp32_s3_lcd_ev_board/esp32/mpu6050/build/CMakeFiles/bootloader
+/Users/willow/esp/project/esp32_s3_lcd_ev_board/esp32/mpu6050/build/CMakeFiles/bootloader.rule
+/Users/willow/esp/project/esp32_s3_lcd_ev_board/esp32/mpu6050/build/CMakeFiles/bootloader-complete.rule
+/Users/willow/esp/project/esp32_s3_lcd_ev_board/esp32/mpu6050/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/willow/esp/project/esp32_s3_lcd_ev_board/esp32/mpu6050/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/willow/esp/project/esp32_s3_lcd_ev_board/esp32/mpu6050/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/willow/esp/project/esp32_s3_lcd_ev_board/esp32/mpu6050/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/willow/esp/project/esp32_s3_lcd_ev_board/esp32/mpu6050/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/willow/esp/project/esp32_s3_lcd_ev_board/esp32/mpu6050/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/willow/esp/project/esp32_s3_lcd_ev_board/esp32/mpu6050/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
