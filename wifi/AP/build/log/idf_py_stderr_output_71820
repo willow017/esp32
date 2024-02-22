@@ -1,0 +1,23 @@
+Compiler supported targets:   Registered Targets:
+    aarch64    - AArch64 (little endian)
+    aarch64_32 - AArch64 (little endian ILP32)
+    aarch64_be - AArch64 (big endian)
+    arm        - ARM
+    arm64      - ARM64 (little endian)
+    arm64_32   - ARM64 (little endian ILP32)
+    armeb      - ARM (big endian)
+    thumb      - Thumb
+    thumbeb    - Thumb (big endian)
+    x86        - 32-bit X86: Pentium-Pro and above
+    x86-64     - 64-bit X86: EM64T and AMD64
+
+CMake Error at /Users/willow/esp/v5.1.2/esp-idf/components/xtensa/project_include.cmake:18 (message):
+  Internal error, toolchain has not been set correctly by project (or an
+  invalid CMakeCache.txt file has been generated somehow)
+Call Stack (most recent call first):
+  /Users/willow/esp/v5.1.2/esp-idf/tools/cmake/build.cmake:398 (include)
+  /Users/willow/esp/v5.1.2/esp-idf/tools/cmake/build.cmake:620 (__build_process_project_includes)
+  /Users/willow/esp/v5.1.2/esp-idf/tools/cmake/project.cmake:547 (idf_build_process)
+  CMakeLists.txt:8 (project)
+
+

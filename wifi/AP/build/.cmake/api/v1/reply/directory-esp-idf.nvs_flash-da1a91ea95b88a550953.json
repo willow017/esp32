@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "esp-idf/nvs_flash",
+		"source" : "/Users/willow/esp/v5.1.2/esp-idf/components/nvs_flash"
+	}
+}

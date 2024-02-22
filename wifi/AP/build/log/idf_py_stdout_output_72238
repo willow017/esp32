@@ -1,0 +1,45 @@
+-- Found Git: /usr/bin/git (found version "2.39.3 (Apple Git-145)") 
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /Users/willow/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Users/willow/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Users/willow/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32s3
+Processing 2 dependencies:
+[1/2] espressif/led_strip (2.5.3)
+[2/2] idf (5.1.2)
+-- Project sdkconfig file /Users/willow/esp/project/esp32_s3_lcd_ev_board/esp32/wifi/AP/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /Users/willow/.espressif/python_env/idf5.1_py3.11_env/bin/python (found version "3.11.6") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "AP" version: 202b775-dirty
+-- Adding linker script /Users/willow/esp/project/esp32_s3_lcd_ev_board/esp32/wifi/AP/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/willow/esp/v5.1.2/esp-idf/components/esp_system/ld/esp32s3/sections.ld.in
+-- Adding linker script /Users/willow/esp/v5.1.2/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script /Users/willow/esp/v5.1.2/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script /Users/willow/esp/v5.1.2/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script /Users/willow/esp/v5.1.2/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script /Users/willow/esp/v5.1.2/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script /Users/willow/esp/v5.1.2/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump espressif__led_strip esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport touch_element ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /Users/willow/esp/v5.1.2/esp-idf/components/app_trace /Users/willow/esp/v5.1.2/esp-idf/components/app_update /Users/willow/esp/v5.1.2/esp-idf/components/bootloader /Users/willow/esp/v5.1.2/esp-idf/components/bootloader_support /Users/willow/esp/v5.1.2/esp-idf/components/bt /Users/willow/esp/v5.1.2/esp-idf/components/cmock /Users/willow/esp/v5.1.2/esp-idf/components/console /Users/willow/esp/v5.1.2/esp-idf/components/cxx /Users/willow/esp/v5.1.2/esp-idf/components/driver /Users/willow/esp/v5.1.2/esp-idf/components/efuse /Users/willow/esp/v5.1.2/esp-idf/components/esp-tls /Users/willow/esp/v5.1.2/esp-idf/components/esp_adc /Users/willow/esp/v5.1.2/esp-idf/components/esp_app_format /Users/willow/esp/v5.1.2/esp-idf/components/esp_coex /Users/willow/esp/v5.1.2/esp-idf/components/esp_common /Users/willow/esp/v5.1.2/esp-idf/components/esp_eth /Users/willow/esp/v5.1.2/esp-idf/components/esp_event /Users/willow/esp/v5.1.2/esp-idf/components/esp_gdbstub /Users/willow/esp/v5.1.2/esp-idf/components/esp_hid /Users/willow/esp/v5.1.2/esp-idf/components/esp_http_client /Users/willow/esp/v5.1.2/esp-idf/components/esp_http_server /Users/willow/esp/v5.1.2/esp-idf/components/esp_https_ota /Users/willow/esp/v5.1.2/esp-idf/components/esp_https_server /Users/willow/esp/v5.1.2/esp-idf/components/esp_hw_support /Users/willow/esp/v5.1.2/esp-idf/components/esp_lcd /Users/willow/esp/v5.1.2/esp-idf/components/esp_local_ctrl /Users/willow/esp/v5.1.2/esp-idf/components/esp_mm /Users/willow/esp/v5.1.2/esp-idf/components/esp_netif /Users/willow/esp/v5.1.2/esp-idf/components/esp_netif_stack /Users/willow/esp/v5.1.2/esp-idf/components/esp_partition /Users/willow/esp/v5.1.2/esp-idf/components/esp_phy /Users/willow/esp/v5.1.2/esp-idf/components/esp_pm /Users/willow/esp/v5.1.2/esp-idf/components/esp_psram /Users/willow/esp/v5.1.2/esp-idf/components/esp_ringbuf /Users/willow/esp/v5.1.2/esp-idf/components/esp_rom /Users/willow/esp/v5.1.2/esp-idf/components/esp_system /Users/willow/esp/v5.1.2/esp-idf/components/esp_timer /Users/willow/esp/v5.1.2/esp-idf/components/esp_wifi /Users/willow/esp/v5.1.2/esp-idf/components/espcoredump /Users/willow/esp/project/esp32_s3_lcd_ev_board/esp32/wifi/AP/managed_components/espressif__led_strip /Users/willow/esp/v5.1.2/esp-idf/components/esptool_py /Users/willow/esp/v5.1.2/esp-idf/components/fatfs /Users/willow/esp/v5.1.2/esp-idf/components/freertos /Users/willow/esp/v5.1.2/esp-idf/components/hal /Users/willow/esp/v5.1.2/esp-idf/components/heap /Users/willow/esp/v5.1.2/esp-idf/components/http_parser /Users/willow/esp/v5.1.2/esp-idf/components/idf_test /Users/willow/esp/v5.1.2/esp-idf/components/ieee802154 /Users/willow/esp/v5.1.2/esp-idf/components/json /Users/willow/esp/v5.1.2/esp-idf/components/log /Users/willow/esp/v5.1.2/esp-idf/components/lwip /Users/willow/esp/project/esp32_s3_lcd_ev_board/esp32/wifi/AP/main /Users/willow/esp/v5.1.2/esp-idf/components/mbedtls /Users/willow/esp/v5.1.2/esp-idf/components/mqtt /Users/willow/esp/v5.1.2/esp-idf/components/newlib /Users/willow/esp/v5.1.2/esp-idf/components/nvs_flash /Users/willow/esp/v5.1.2/esp-idf/components/openthread /Users/willow/esp/v5.1.2/esp-idf/components/partition_table /Users/willow/esp/v5.1.2/esp-idf/components/perfmon /Users/willow/esp/v5.1.2/esp-idf/components/protobuf-c /Users/willow/esp/v5.1.2/esp-idf/components/protocomm /Users/willow/esp/v5.1.2/esp-idf/components/pthread /Users/willow/esp/v5.1.2/esp-idf/components/sdmmc /Users/willow/esp/v5.1.2/esp-idf/components/soc /Users/willow/esp/v5.1.2/esp-idf/components/spi_flash /Users/willow/esp/v5.1.2/esp-idf/components/spiffs /Users/willow/esp/v5.1.2/esp-idf/components/tcp_transport /Users/willow/esp/v5.1.2/esp-idf/components/touch_element /Users/willow/esp/v5.1.2/esp-idf/components/ulp /Users/willow/esp/v5.1.2/esp-idf/components/unity /Users/willow/esp/v5.1.2/esp-idf/components/usb /Users/willow/esp/v5.1.2/esp-idf/components/vfs /Users/willow/esp/v5.1.2/esp-idf/components/wear_levelling /Users/willow/esp/v5.1.2/esp-idf/components/wifi_provisioning /Users/willow/esp/v5.1.2/esp-idf/components/wpa_supplicant /Users/willow/esp/v5.1.2/esp-idf/components/xtensa
+-- Configuring done (4.7s)
+-- Generating done (0.2s)
+-- Build files have been written to: /Users/willow/esp/project/esp32_s3_lcd_ev_board/esp32/wifi/AP/build

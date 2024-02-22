@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "esp-idf/ieee802154",
+		"source" : "/Users/willow/esp/v5.1.2/esp-idf/components/ieee802154"
+	}
+}
