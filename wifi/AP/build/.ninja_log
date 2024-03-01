@@ -1113,3 +1113,5 @@
 5269	5376	1708614081956612320	/Users/willow/esp/project/esp32_s3_lcd_ev_board/esp32/wifi/AP/build/.bin_timestamp	e6ab101367e71d0
 5376	5402	0	esp-idf/esptool_py/CMakeFiles/app_check_size	c94cc90f8c08dd
 5376	5402	0	/Users/willow/esp/project/esp32_s3_lcd_ev_board/esp32/wifi/AP/build/esp-idf/esptool_py/CMakeFiles/app_check_size	c94cc90f8c08dd
+18	7020926	0	CMakeFiles/confserver	80a6577054851ff9
+18	7020926	0	/Users/willow/esp/project/esp32_s3_lcd_ev_board/esp32/wifi/AP/build/CMakeFiles/confserver	80a6577054851ff9
