@@ -54,7 +54,7 @@ ESP32是由Espressif Systems生产的一款低成本、低功耗的微控制器�
   <li>应用场景：远程设备控制、智能家居系统、教育和演示项目等。</li>
 </ul>
 
-#### 3. [iBeacon](https://github.com/willow017/esp32/tree/main/ble/beacon)
+#### 4. [iBeacon](https://github.com/willow017/esp32/tree/main/ble/beacon)
 <ul style="margin-top: -1em;">
   <li>描述：在这个项目中，ESP32被设置成一个iBeacon广播，允许用户通过蓝牙连接设备改变设备的广播间隔。</li>
   <li>技术栈：ESP-IDF </li>
