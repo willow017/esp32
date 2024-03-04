@@ -22,7 +22,7 @@
 #include "ble_spp_server_demo.h"
 #include "esp_ibeacon_api.h"
 
-#define GATTS_TABLE_TAG  "GATTS_SPP_DEMO"
+#define GATTS_TABLE_TAG  "HK"
 
 #define SPP_PROFILE_NUM             1
 #define SPP_PROFILE_APP_IDX         0
@@ -53,8 +53,8 @@ static const uint16_t spp_service_uuid = 0xABF0;
 //     //0x08,0x09, 'i', 'B', 'e', 'a', 'c', 'o', 'n',
 
 // };
-static const uint8_t scan_adv_data[10] = {
-    0x08,0x09, 'i', 'B', 'e', 'a', 'c', 'o', 'n',
+static const uint8_t scan_adv_data[12] = {
+    0x0B,0x09, 'H','K',' ','i', 'B', 'e', 'a', 'c', 'o', 'n',
 };
 
 extern esp_ble_ibeacon_vendor_t vendor_config;

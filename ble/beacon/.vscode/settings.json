@@ -11,7 +11,7 @@
         "interface/ftdi/esp32_devkitj_v1.cfg",
         "target/esp32s3.cfg"
     ],
-    "idf.port": "/dev/cu.usbserial-2420",
+    "idf.port": "/dev/cu.usbserial-2410",
     "idf.pythonBinPath": "/Users/willow/.espressif/python_env/idf5.1_py3.11_env/bin/python",
     "idf.toolsPath": "/Users/willow/.espressif",
     "files.associations": {

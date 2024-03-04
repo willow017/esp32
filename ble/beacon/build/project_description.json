@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "beacon",
-    "project_version":    "a8e441f-dirty",
+    "project_version":    "1132f0d-dirty",
     "project_path":       "/Users/willow/esp/project/esp32_s3_lcd_ev_board/esp32/ble/beacon",
     "idf_path":           "/Users/willow/esp/v5.1.2/esp-idf",
     "build_dir":          "/Users/willow/esp/project/esp32_s3_lcd_ev_board/esp32/ble/beacon/build",

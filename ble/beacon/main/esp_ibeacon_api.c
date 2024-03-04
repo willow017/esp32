@@ -36,15 +36,6 @@ esp_ble_ibeacon_head_t ibeacon_common_head = {
     .beacon_type = 0x1502,
 };
 
-// static const uint8_t spp_adv_data[23] = {
-//     /* Flags */
-//     0x02,0x01,0x06,
-//     /* Complete List of 16-bit Service Class UUIDs */
-//     0x03,0x03,0xF0,0xAB,
-//     /* Complete Local Name in advertising */
-//     0x0F,0x09, 'E', 'S', 'P', ' ', 'i', 'B', 'e', 'a', 'c', 'o', 'n'
-// };
-
 /* Vendor part of iBeacon data*/
 esp_ble_ibeacon_vendor_t vendor_config = {
     .proximity_uuid = ESP_UUID,
