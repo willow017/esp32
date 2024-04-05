@@ -513,7 +513,7 @@ static void gatts_profile_event_handler(esp_gatts_cb_event_t event, esp_gatt_if_
         	esp_ble_gap_set_device_name(SAMPLE_DEVICE_NAME);
 
         	ESP_LOGI(GATTS_TABLE_TAG, "%s %d\n", __func__, __LINE__);
-                esp_err_t status = esp_ble_config_ibeacon_data (&vendor_config, &ibeacon_adv_data);
+            esp_err_t status = esp_ble_config_ibeacon_data (&vendor_config, &ibeacon_adv_data);
             if (status == ESP_OK){
 
                 esp_ble_gap_config_adv_data_raw((uint8_t*)&ibeacon_adv_data, sizeof(ibeacon_adv_data));

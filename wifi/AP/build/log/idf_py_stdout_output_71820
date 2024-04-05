@@ -1,9 +1,0 @@
--- Found Git: /usr/bin/git (found version "2.39.3 (Apple Git-145)") 
--- The ASM compiler identification is AppleClang
--- Found assembler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
--- Building ESP-IDF components for target esp32s3
-Processing 2 dependencies:
-[1/2] espressif/led_strip (2.5.3)
-[2/2] idf (5.1.2)
--- Project sdkconfig file /Users/willow/esp/project/esp32_s3_lcd_ev_board/esp32/wifi/AP/sdkconfig
--- Configuring incomplete, errors occurred!

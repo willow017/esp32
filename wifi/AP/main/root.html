@@ -1,56 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>LED Control and Status</title>
+  <meta charset="UTF-8">
+  <!-- import CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
 </head>
 <body>
-    <h2>Control LED</h2>
-    <button onclick="setLed('on')">Turn On</button>
-    <button onclick="setLed('off')">Turn Off</button>
-    <h2>LED Brightness Control</h2>
-    <input type="range" min="0" max="100" value="0" onchange="adjustBrightness(this.value)" id="brightnessSlider">
-    <h2>LED Status: <span id="ledStatus">Unknown</span></h2>
-    <h2>WS2812 Color Control</h2>
-    <div>R: <input type="range" min="0" max="255" oninput="setColor()" id="red"></div>
-    <div>G: <input type="range" min="0" max="255" oninput="setColor()" id="green"></div>
-    <div>B: <input type="range" min="0" max="255" oninput="setColor()" id="blue"></div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <div id="app">{{ message }}</div>
+    
     <script>
-    function setLed(state) {
-        var xhr = new XMLHttpRequest();
-        xhr.open("GET", "/control?state=" + state, true);
-        xhr.send();
-    }
-
-    function fetchLedStatus() {
-        var xhr = new XMLHttpRequest();
-        xhr.onreadystatechange = function() {
-            if (xhr.readyState == 4 && xhr.status == 200) {
-                document.getElementById("ledStatus").innerHTML = xhr.responseText;
-            }
-        };
-        xhr.open("GET", "/status", true);
-        xhr.send();
-    }
-
-    function adjustBrightness(brightness) {
-        var xhr = new XMLHttpRequest();
-        xhr.open("POST", "/set-brightness", true);
-        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-        xhr.send("brightness=" + brightness);
-    }
-
-    function setColor() {
-        var red = document.getElementById("red").value;
-        var green = document.getElementById("green").value;
-        var blue = document.getElementById("blue").value;
-        
-        var xhr = new XMLHttpRequest();
-        xhr.open("GET", "/set-color?r=" + red + "&g=" + green + "&b=" + blue, true);
-        xhr.send();
-    }
-
-    // 每秒钟查询一次LED状态
-    setInterval(fetchLedStatus, 1000);
+      const { createApp, ref } = Vue
+    
+      createApp({
+        setup() {
+          const message = ref('Hello vue!')
+          return {
+            message
+          }
+        }
+      }).mount('#app')
     </script>
 </body>
+
 </html>

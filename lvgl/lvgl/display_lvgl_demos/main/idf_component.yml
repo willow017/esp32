@@ -1,0 +1,4 @@
+dependencies:
+  esp32_s3_lcd_ev_board:
+    version: '*'
+description: BSP Display rotation example

@@ -236,7 +236,7 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 EXTRA_COMPONENT_DIRS:UNINITIALIZED=/Users/willow/esp/v5.1.2/esp-idf/components/bootloader
 
 //Git command line client
-GIT_EXECUTABLE:FILEPATH=/usr/bin/git
+GIT_EXECUTABLE:FILEPATH=/opt/homebrew/bin/git
 
 //No help, variable specified on the command line.
 IDF_PATH:UNINITIALIZED=/Users/willow/esp/v5.1.2/esp-idf
@@ -437,7 +437,7 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Git
-FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[/usr/bin/git][v2.39.3 (Apple Git-145)()]
+FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[/opt/homebrew/bin/git][v2.44.0()]
 //ADVANCED property for variable: GIT_EXECUTABLE
 GIT_EXECUTABLE-ADVANCED:INTERNAL=1
 //Have include stddef.h

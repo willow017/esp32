@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "AP",
-    "project_version":    "202b775-dirty",
+    "project_version":    "3a7d64f-dirty",
     "project_path":       "/Users/willow/esp/project/esp32_s3_lcd_ev_board/esp32/wifi/AP",
     "idf_path":           "/Users/willow/esp/v5.1.2/esp-idf",
     "build_dir":          "/Users/willow/esp/project/esp32_s3_lcd_ev_board/esp32/wifi/AP/build",
@@ -445,7 +445,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/Users/willow/esp/project/esp32_s3_lcd_ev_board/esp32/wifi/AP/build/esp-idf/esp_netif/libesp_netif.a",
-            "sources": [ "/Users/willow/esp/v5.1.2/esp-idf/components/esp_netif/esp_netif_handlers.c", "/Users/willow/esp/v5.1.2/esp-idf/components/esp_netif/esp_netif_objects.c", "/Users/willow/esp/v5.1.2/esp-idf/components/esp_netif/esp_netif_defaults.c", "/Users/willow/esp/v5.1.2/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c", "/Users/willow/esp/v5.1.2/esp-idf/components/esp_netif/lwip/esp_netif_sntp.c", "/Users/willow/esp/v5.1.2/esp-idf/components/esp_netif/lwip/esp_netif_lwip_defaults.c", "/Users/willow/esp/v5.1.2/esp-idf/components/esp_netif/lwip/netif/wlanif.c", "/Users/willow/esp/v5.1.2/esp-idf/components/esp_netif/lwip/netif/ethernetif.c", "/Users/willow/esp/v5.1.2/esp-idf/components/esp_netif/lwip/netif/esp_pbuf_ref.c", "/Users/willow/esp/v5.1.2/esp-idf/components/esp_netif/lwip/esp_netif_br_glue.c" ],
+            "sources": [ "/Users/willow/esp/v5.1.2/esp-idf/components/esp_netif/esp_netif_handlers.c", "/Users/willow/esp/v5.1.2/esp-idf/components/esp_netif/esp_netif_objects.c", "/Users/willow/esp/v5.1.2/esp-idf/components/esp_netif/esp_netif_defaults.c", "/Users/willow/esp/v5.1.2/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c", "/Users/willow/esp/v5.1.2/esp-idf/components/esp_netif/lwip/esp_netif_sntp.c", "/Users/willow/esp/v5.1.2/esp-idf/components/esp_netif/lwip/esp_netif_lwip_defaults.c", "/Users/willow/esp/v5.1.2/esp-idf/components/esp_netif/lwip/netif/wlanif.c", "/Users/willow/esp/v5.1.2/esp-idf/components/esp_netif/lwip/netif/ethernetif.c", "/Users/willow/esp/v5.1.2/esp-idf/components/esp_netif/lwip/netif/esp_pbuf_ref.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_netif_stack": {
