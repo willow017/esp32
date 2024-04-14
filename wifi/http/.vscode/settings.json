@@ -13,5 +13,12 @@
     ],
     "idf.port": "/dev/cu.usbserial-2420",
     "idf.pythonBinPath": "/Users/willow/.espressif/python_env/idf5.2_py3.11_env/bin/python",
-    "idf.toolsPath": "/Users/willow/.espressif"
+    "idf.toolsPath": "/Users/willow/.espressif",
+    "idf.flashType": "UART",
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "chrono": "c",
+        "esp_sntp.h": "c",
+        "lvgl.h": "c"
+    }
 }
